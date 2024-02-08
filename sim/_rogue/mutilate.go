@@ -67,7 +67,7 @@ func (rogue *Rogue) registerMutilateSpell() {
 		Flags:       core.SpellFlagMeleeMetrics | core.SpellFlagAPL,
 
 		EnergyCost: core.EnergyCostOptions{
-			Cost:   rogue.costModifier(60),
+			Cost:   rogue.costModifier(40),
 			Refund: 0.8,
 		},
 		Cast: core.CastConfig{
